@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker Project</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="balance-container content">
+        <h5 class="head">YOUR CURRENT BALANCE</h5>
+        <h5 class="head">$<span class="update">0</span>.00</h5>
+      </div>
+      <div class="inc-exp-container content">
+        <div class="income div">
+          <h5 class="short">income</h5>
+          <div class="income-text">
+            $<span class="currentBalance">0</span>.00
+          </div>
+        </div>
+        <div class="expense div">
+          <h5 class="short">expense</h5>
+          <div class="expense-text">
+            $<span class="decreaseBalance">0</span>.00
+          </div>
+        </div>
+      </div>
+      <div class="history-container content">
+        <h5 class="head">History</h5>
+      </div>
+      <div class="new-Tranisition content">
+        <h6 class="head">Add new transition</h6>
+        <form>
+          <label>assortment:</label>
+          <input type="text" id="assortment" /><br />
+          <label>Amount:</label>
+          <p class="note">(negative-expence, positive-income)</p>
+          <input type="text" id="Amount" />
+        </form>
+        <button class="btn">All Transition</button>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>

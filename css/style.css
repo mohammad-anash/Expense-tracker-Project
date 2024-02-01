@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "averta cy w10";
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 500px;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content {
+  padding: 5px;
+  width: 400px;
+}
+
+.head {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.inc-exp-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.div {
+  width: 120px;
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 2px 4px 8px rgb(0, 0, 0, 0.2);
+}
+
+.short {
+  font-size: 23px;
+  text-transform: capitalize;
+}
+
+.history-item {
+  border-right: 4px solid #2ecc71;
+  /* padding: 10px; */
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 4px 8px rgb(0, 0, 0, 0.2);
+}
+
+.new-Tranisition {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-Tranisition h6 {
+  margin: 10px 0px;
+}
+
+label {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+input {
+  width: 300px;
+  margin: 5px auto;
+  display: block;
+  background-color: #fff;
+  border: 0;
+  padding: 5px;
+  font-size: 18px;
+  box-shadow: 2px 4px 8px rgb(0, 0, 0, 0.2);
+}
+
+button {
+  padding: 5px;
+  font-size: 18px;
+  margin: 10px auto;
+  display: block;
+  background-color: #9c88ff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0;
+  width: 300px;
+
+  box-shadow: 2px 4px 8px rgb(0, 0, 0, 0.2);
+}
+
+.income-text {
+  color: #2ecc71;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.expense-text {
+  font-size: 20px;
+  font-weight: 800;
+  color: #c0392b;
+}
