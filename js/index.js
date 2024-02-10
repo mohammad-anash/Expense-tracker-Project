@@ -22,7 +22,7 @@ function createHistory(Number) {
   }
 
   thingsDiv.innerText = `${assortment.value}`;
-  paisaDiv.innerText = `+${amount.value}`;
+  paisaDiv.innerText = `${amount.value}`;
 
   historyItem.style.padding = "10px";
   historyItem.append(thingsDiv, paisaDiv);
